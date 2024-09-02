@@ -2,12 +2,6 @@ import {BaseCommand, ExtendedClient} from "../structure";
 import {CommandInteraction, SlashCommandBuilder, TextChannel, User} from "discord.js";
 import {log} from "../utils/logs";
 
-/*
-Copyright 2023 Sayrix (github.com/Sayrix)
-
-Licensed under the Creative Commons Attribution 4.0 International
-please check https://creativecommons.org/licenses/by/4.0 for more informations.
-*/
 
 export default class AddCommand extends BaseCommand {
 	public static data: SlashCommandBuilder = <SlashCommandBuilder>new SlashCommandBuilder()
@@ -73,9 +67,3 @@ export default class AddCommand extends BaseCommand {
 	}
 }
 
-/*
-Copyright 2023 Sayrix (github.com/Sayrix)
-
-Licensed under the Creative Commons Attribution 4.0 International
-please check https://creativecommons.org/licenses/by/4.0 for more informations.
-*/
